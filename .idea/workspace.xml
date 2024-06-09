@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c0faa38-6c18-4d0b-a555-bb4910646cfd" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Scoop\apps\maven\3.9.3\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Scoop/apps/maven/3.9.3" />
+        <option name="userSettingsFile" value="D:\Scoop\apps\maven\3.9.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2h3SQrWgtVHuklfcX8s3alOYEWS" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Code/Study Code/Java/Test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "ee142713069a1eb5e22149d8ef1d86dc",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-consumer-feign-order80\src\main\java\com\komikive\cloud" />
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-provider-payment8002\src\main\java\com\komikive\cloud" />
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-provider-payment8002\src\main\resources" />
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-api-commons\src\main\java\com\komikive\cloud" />
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-consumer-order80\src\main\java\com\komikive\cloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.komikive.cloud" />
+      <recent name="com.komikive.cloud.entities" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="应用程序.PredicateTest">
+    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.komikive.cloud.EnumTest" />
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PredicateTest" />
+      <module name="cloud-api-commons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainOpenFeign80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.MainOpenFeign80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main9527" />
+        <item itemvalue="Spring Boot.Main8001" />
+        <item itemvalue="应用程序.PredicateTest" />
+        <item itemvalue="Spring Boot.Main80" />
+        <item itemvalue="应用程序.EnumTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="8c0faa38-6c18-4d0b-a555-bb4910646cfd" name="更改" comment="" />
+      <created>1689405630121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689405630121</updated>
+      <workItem from="1716821256042" duration="2968000" />
+      <workItem from="1716854834746" duration="4584000" />
+      <workItem from="1716866913524" duration="11767000" />
+      <workItem from="1716958520418" duration="10444000" />
+      <workItem from="1717037077633" duration="11986000" />
+      <workItem from="1717309881553" duration="2334000" />
+      <workItem from="1717387145987" duration="6221000" />
+      <workItem from="1717463936622" duration="10445000" />
+      <workItem from="1717509073274" duration="1848000" />
+      <workItem from="1717521381895" duration="457000" />
+      <workItem from="1717561481018" duration="405000" />
+      <workItem from="1717567344686" duration="594000" />
+      <workItem from="1717606941943" duration="174000" />
+      <workItem from="1717607134204" duration="447000" />
+      <workItem from="1717607620426" duration="129000" />
+      <workItem from="1717660751096" duration="2445000" />
+      <workItem from="1717747954479" duration="3339000" />
+      <workItem from="1717772672857" duration="2243000" />
+      <workItem from="1717820140481" duration="817000" />
+      <workItem from="1717824119724" duration="2534000" />
+      <workItem from="1717831918202" duration="1825000" />
+      <workItem from="1717835962107" duration="9967000" />
+      <workItem from="1717894683028" duration="18982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

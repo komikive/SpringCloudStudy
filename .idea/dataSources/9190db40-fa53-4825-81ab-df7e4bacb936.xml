@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="spring_cloud@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.48">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>8.3.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="class"/>
+    <schema id="3" parent="1" name="hpu"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="jwgl"/>
+    <schema id="6" parent="1" name="my_boot_project"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="ruoyi"/>
+    <schema id="10" parent="1" name="ruoyi_vue"/>
+    <schema id="11" parent="1" name="sky_take_out"/>
+    <schema id="12" parent="1" name="spring_cloud">
+      <Current>1</Current>
+    </schema>
+    <schema id="13" parent="1" name="sys"/>
+    <schema id="14" parent="1" name="zhxy"/>
+    <table id="15" parent="12" name="t_pay">
+      <Comment>支付交易表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="16" parent="15" name="id">
+      <AutoIncrement>2</AutoIncrement>
+      <DasType>int unsigned|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="17" parent="15" name="pay_no">
+      <Comment>支付流水号</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="18" parent="15" name="order_no">
+      <Comment>订单流水号</Comment>
+      <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="19" parent="15" name="user_id">
+      <Comment>用户账号ID</Comment>
+      <DasType>int|0s</DasType>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <column id="20" parent="15" name="amount">
+      <Comment>交易金额</Comment>
+      <DasType>decimal(8,2 digit)|0s</DasType>
+      <DefaultExpression>9.90</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="21" parent="15" name="deleted">
+      <Comment>删除标志，默认0不删除，1删除</Comment>
+      <DasType>tinyint unsigned|0s</DasType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="22" parent="15" name="create_time">
+      <Comment>创建时间</Comment>
+      <DasType>timestamp|0s</DasType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="23" parent="15" name="update_time">
+      <Comment>更新时间</Comment>
+      <DasType>timestamp|0s</DasType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>8</Position>
+    </column>
+    <index id="24" parent="15" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
