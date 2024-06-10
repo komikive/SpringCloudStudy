@@ -1,4 +1,4 @@
-package com.komikive.cloud;
+package com.komikive.cloud.custom;
 
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;

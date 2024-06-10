@@ -10,31 +10,33 @@ import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Enumeration;
 
 
 @RestController
+@RequestMapping("/pay/gateway")
 public class PayGateWayController
 {
 	@Resource
 	PayService payService;
 
-	@GetMapping(value = "/pay/gateway/get/{id}")
+	@GetMapping(value = "/get/{id}")
 	public ResultData<Pay> getById(@PathVariable("id") Integer id)
 	{
 		Pay pay = payService.getById(id);
 		return ResultData.success(pay);
 	}
 
-	@GetMapping(value = "/pay/gateway/info")
+	@GetMapping(value = "/info")
 	public ResultData<String> getGatewayInfo()
 	{
 		return ResultData.success("gateway info test："+ IdUtil.simpleUUID());
 	}
 
-	@GetMapping(value = "/pay/gateway/filter")
+	@GetMapping(value = "/filter")
 	public ResultData<String> getGatewayFilter(HttpServletRequest request)
 	{
 		String result = "";
