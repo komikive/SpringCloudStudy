@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-provider-payment8002" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="TestProject" />
         <module name="cloud-api-commons" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-provider-payment8001" />
         <module name="mybatis_generator2024" />
         <module name="cloud-consumer-order80" />
