@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0faa38-6c18-4d0b-a555-bb4910646cfd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject/src/main/java/com/komikive/cloud/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/komikive/cloud/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/komikive/cloud/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main80">
+  <component name="RunManager" selected="Spring Boot.Main8401">
     <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-config-nacos-client3377" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main3377" />
@@ -247,7 +243,10 @@
       <workItem from="1718066529937" duration="18760000" />
       <workItem from="1718103962501" duration="2901000" />
       <workItem from="1718108806400" duration="5717000" />
-      <workItem from="1718168065584" duration="4691000" />
+      <workItem from="1718168065584" duration="8441000" />
+      <workItem from="1718187608895" duration="1772000" />
+      <workItem from="1718192168281" duration="1136000" />
+      <workItem from="1718195785236" duration="480000" />
     </task>
     <servers />
   </component>
