@@ -9,7 +9,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/TestProject/pom.xml" />
+        <option value="$PROJECT_DIR$/TestRules/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/TestProject/pom.xml" />
       </set>
     </option>
   </component>

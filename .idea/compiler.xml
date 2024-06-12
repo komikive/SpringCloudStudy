@@ -10,15 +10,20 @@
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-provider-payment8002" />
         <module name="cloudalibaba-provider-payment9001" />
-        <module name="TestProject" />
         <module name="cloud-api-commons" />
         <module name="cloudalibaba-consumer-nacos-order83" />
         <module name="cloud-provider-payment8001" />
         <module name="mybatis_generator2024" />
         <module name="cloud-consumer-order80" />
+        <module name="cloudalibaba-sentinel-service8401" />
         <module name="cloud-gateway9527" />
         <module name="cloud-consumer-feign-order80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudalibaba-sentinel-service" target="17" />
+      <module name="TestProject" target="17" />
+      <module name="TestRules" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
