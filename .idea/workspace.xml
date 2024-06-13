@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0faa38-6c18-4d0b-a555-bb4910646cfd" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-api-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/komikive/cloud/Main83.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/komikive/cloud/Main83.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/komikive/cloud/controller/OrderNacosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/komikive/cloud/controller/OrderNacosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/komikive/cloud/controller/PayAlibabaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/komikive/cloud/controller/PayAlibabaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,38 +44,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Study Code/Java/SpringbootComponent/DroolsRules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;94d8abc33a6382511b51fc7dbe51b317&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Code/Study Code/Java/SpringbootComponent/DroolsRules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "46e5cbcfa4cefc9178e17fa16a304d93",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -200,6 +194,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main9528" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-gateway9528" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main9528" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainOpenFeign80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="cloud-consumer-feign-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.MainOpenFeign80" />
@@ -255,7 +256,8 @@
       <workItem from="1718192168281" duration="1136000" />
       <workItem from="1718195785236" duration="3331000" />
       <workItem from="1718241375500" duration="5101000" />
-      <workItem from="1718249976326" duration="4832000" />
+      <workItem from="1718249976326" duration="6592000" />
+      <workItem from="1718259759290" duration="8142000" />
     </task>
     <servers />
   </component>

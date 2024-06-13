@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="cloud-provider-payment8002" />
+        <module name="cloudalibaba-sentinel-gateway9528" />
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-api-commons" />
         <module name="cloudalibaba-consumer-nacos-order83" />
