@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0faa38-6c18-4d0b-a555-bb4910646cfd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway9528/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/komikive/cloud/apis/AccountFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/komikive/cloud/apis/StorageFeignApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/Main2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/komikive/cloud/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_generator2024/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/java/com/komikive/cloud/entities/Pay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/java/com/komikive/cloud/mapper/PayMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/java/com/komikive/cloud/mapper/PayMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_generator2024/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +45,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Scoop/apps/maven/3.9.3/maven-repo/io/seata/seata-spring-autoconfigure-client/2.0.0/seata-spring-autoconfigure-client-2.0.0-sources.jar!/io/seata/spring/boot/autoconfigure/properties/SeataProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Scoop/apps/maven/3.9.3/maven-repo/io/seata/seata-spring-autoconfigure-client/2.0.0/seata-spring-autoconfigure-client-2.0.0-sources.jar!/io/seata/spring/boot/autoconfigure/properties/client/ServiceProperties.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,48 +69,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "ignore_missing_gitignore": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Code/Study Code/Java/SpringbootComponent/DroolsRules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "46e5cbcfa4cefc9178e17fa16a304d93",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/StudyCode/Java/SpringCloud2024/seata-account-service2003/src/main/java/com/komikive/cloud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;43614854e2039c82f80db6ff02ae8dce&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\StudyCode\Java\SpringCloud2024\seata-account-service2003\src\main\java\com\komikive\cloud" />
+      <recent name="D:\Code\StudyCode\Java\SpringCloud2024\seata-storage-service2002\src\main\java\com\komikive" />
       <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-consumer-feign-order80\src\main\java\com\komikive\cloud" />
       <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-provider-payment8002\src\main\java\com\komikive\cloud" />
       <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-provider-payment8002\src\main\resources" />
-      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-api-commons\src\main\java\com\komikive\cloud" />
-      <recent name="D:\Code\Study Code\Java\SpringCloud2024\cloud-consumer-order80\src\main\java\com\komikive\cloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\StudyCode\Java\SpringCloud2024\seata-account-service2003\src\main\resources\mapper" />
+      <recent name="D:\Code\StudyCode\Java\SpringCloud2024\seata-storage-service2002\src\main\resources\mapper" />
+      <recent name="D:\Code\Study Code\Java\SpringCloud2024\seata-order-service2001\src\main\resources\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.komikive.cloud" />
@@ -99,7 +129,40 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Main8401">
+  <component name="RunManager" selected="Spring Boot.Main2002">
+    <configuration name="Main2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main2002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main2003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.komikive.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-config-nacos-client3377" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.komikive.cloud.Main3377" />
@@ -210,6 +273,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main2003" />
+        <item itemvalue="Spring Boot.Main2002" />
         <item itemvalue="Spring Boot.Main83" />
         <item itemvalue="Spring Boot.Main8401" />
         <item itemvalue="Spring Boot.Main3377" />
@@ -257,7 +322,18 @@
       <workItem from="1718195785236" duration="3331000" />
       <workItem from="1718241375500" duration="5101000" />
       <workItem from="1718249976326" duration="6592000" />
-      <workItem from="1718259759290" duration="8142000" />
+      <workItem from="1718259759290" duration="9386000" />
+      <workItem from="1718285268112" duration="1789000" />
+      <workItem from="1718333480020" duration="628000" />
+      <workItem from="1718364888490" duration="1786000" />
+      <workItem from="1718503959224" duration="5549000" />
+      <workItem from="1718528194362" duration="4813000" />
+      <workItem from="1718533525994" duration="4606000" />
+      <workItem from="1718584086784" duration="3926000" />
+      <workItem from="1718589357717" duration="725000" />
+      <workItem from="1718591397680" duration="7628000" />
+      <workItem from="1718599641304" duration="7681000" />
+      <workItem from="1718608318626" duration="356000" />
     </task>
     <servers />
   </component>
@@ -279,5 +355,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringCloud2024$Main2002.ic" NAME="Main2002 覆盖结果" MODIFIED="1718604800291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.komikive.cloud.*</FILTER>
+    </SUITE>
   </component>
 </project>
