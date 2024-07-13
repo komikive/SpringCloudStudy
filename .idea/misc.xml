@@ -7,15 +7,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/TestProject/pom.xml" />
-        <option value="$PROJECT_DIR$/TestRules/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/TestProject/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-plus-generator/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

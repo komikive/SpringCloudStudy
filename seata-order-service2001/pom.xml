@@ -59,10 +59,16 @@
 			<artifactId>druid-spring-boot-starter</artifactId>
 		</dependency>
 		<!-- Swagger3 调用方式 http://你的主机IP地址:5555/swagger-ui/index.html -->
+<!--		<dependency>-->
+<!--			<groupId>org.springdoc</groupId>-->
+<!--			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>-->
+<!--		</dependency>-->
 		<dependency>
-			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<groupId>com.github.xiaoymin</groupId>
+			<artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+			<version>4.4.0</version>
 		</dependency>
+
 		<!--mybatis和springboot整合-->
 <!--		<dependency>-->
 <!--			<groupId>org.mybatis.spring.boot</groupId>-->
@@ -85,8 +91,9 @@
 <!--		</dependency>-->
 		<dependency>
 			<groupId>com.baomidou</groupId>
-			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
 		</dependency>
+
 		<!--hutool-->
 		<dependency>
 			<groupId>cn.hutool</groupId>
@@ -117,6 +124,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>repackage</id>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>

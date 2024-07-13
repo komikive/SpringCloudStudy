@@ -9,22 +9,21 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>mybatis_generator2024</module>
+<!--		<module>mybatis_generator2024</module>-->
 		<module>cloud-provider-payment8001</module>
-		<module>cloud-consumer-order80</module>
+<!--		<module>cloud-consumer-order80</module>-->
 		<module>cloud-api-commons</module>
-		<module>cloud-provider-payment8002</module>
+<!--		<module>cloud-provider-payment8002</module>-->
 		<module>cloud-consumer-feign-order80</module>
 		<module>cloud-gateway9527</module>
 		<module>cloudalibaba-provider-payment9001</module>
-		<module>cloudalibaba-consumer-nacos-order83</module>
-		<module>cloudalibaba-config-nacos-client3377</module>
-		<module>cloudalibaba-sentinel-service8401</module>
-		<module>cloudalibaba-sentinel-service8401</module>
+<!--		<module>cloudalibaba-consumer-nacos-order83</module>-->
+<!--		<module>cloudalibaba-config-nacos-client3377</module>-->
+<!--		<module>cloudalibaba-sentinel-service8401</module>-->
+<!--		<module>cloudalibaba-sentinel-service8401</module>-->
 		<module>cloudalibaba-sentinel-gateway9528</module>
 		<module>seata-order-service2001</module>
 		<module>seata-storage-service2002</module>
-		<module>seata-account-service2003</module>
 		<module>seata-account-service2003</module>
 	</modules>
 
@@ -43,13 +42,13 @@
 		<fastjson2.version>2.0.40</fastjson2.version>
 		<persistence-api.version>1.0.2</persistence-api.version>
 		<spring.boot.test.version>3.1.5</spring.boot.test.version>
-		<spring.boot.version>3.1.7</spring.boot.version>
-		<spring.cloud.version>2022.0.4</spring.cloud.version>
+<!--		<spring.boot.version>3.1.7</spring.boot.version>-->
+<!--		<spring.cloud.version>2022.0.4</spring.cloud.version>-->
 		<spring.cloud.alibaba.version>2023.0.1.0</spring.cloud.alibaba.version>
 
 <!--		<spring.cloud.alibaba.version>2022.0.0.0-RC2</spring.cloud.alibaba.version>-->
-		<!--<spring.boot.version>3.2.6</spring.boot.version>-->
-<!--		<spring.cloud.version>2023.0.2</spring.cloud.version>-->
+		<spring.boot.version>3.2.6</spring.boot.version>
+		<spring.cloud.version>2023.0.2</spring.cloud.version>
 		<micrometer-tracing.version>1.2.0</micrometer-tracing.version>
 		<micrometer-observation.version>1.12.0</micrometer-observation.version>
 		<feign-micrometer.version>12.5</feign-micrometer.version>
@@ -61,9 +60,10 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.baomidou</groupId>
-				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
 				<version>${mybatis-plus}</version>
 			</dependency>
+
 			<!--springboot 3.2.0-->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
@@ -106,7 +106,7 @@
 				<artifactId>druid-spring-boot-starter</artifactId>
 				<version>${druid.version}</version>
 			</dependency>
-			<!--通用Mapper4之tk.mybatis-->
+<!--			通用Mapper4之tk.mybatis-->
 			<dependency>
 				<groupId>tk.mybatis</groupId>
 				<artifactId>mapper</artifactId>
@@ -192,5 +192,15 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring.boot.version}</version>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>

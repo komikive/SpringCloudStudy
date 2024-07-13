@@ -19,7 +19,7 @@ public class AccountServiceImpl implements AccountService {
 		log.info("---------->开始扣减用户余额");
 		accountMapper.decrease(userId,money);
 		//模拟异常
-		timeout();
+//		timeout();
 //		int age=10/0;
 		log.info("---------->扣减完成");
 	}

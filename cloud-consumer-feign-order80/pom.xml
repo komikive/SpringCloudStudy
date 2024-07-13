@@ -19,6 +19,10 @@
 
 
 	<dependencies>
+<!--		<dependency>-->
+<!--			<groupId>com.alibaba.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+<!--		</dependency>-->
 		<!--micrometer-tracing指标追踪  1-->
 		<dependency>
 			<groupId>io.micrometer</groupId>

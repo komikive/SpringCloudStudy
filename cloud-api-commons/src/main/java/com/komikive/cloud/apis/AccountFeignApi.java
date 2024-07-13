@@ -6,10 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * @auther zzyy
- * @create 2023-12-01 17:42
- */
 @FeignClient(value = "seata-account-service")
 public interface AccountFeignApi
 {

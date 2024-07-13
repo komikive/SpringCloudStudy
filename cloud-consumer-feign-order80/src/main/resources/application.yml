@@ -6,6 +6,10 @@ spring:
     name: cloud-consumer-openfeign-order
   ####Spring Cloud Consul for Service Discovery
   cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#        ip: 127.0.0.1
     consul:
       host: localhost
       port: 8500

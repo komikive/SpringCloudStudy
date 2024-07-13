@@ -3,6 +3,9 @@ spring:
     name: cloud-payment-service
     ####Spring Cloud Consul for Service Discovery
   cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
     consul:
       host: localhost
       port: 8500
@@ -17,4 +20,4 @@ spring:
 #   config/cloud-payment-service/data
 #         /cloud-payment-service-dev/data
 #         /cloud-payment-service-prod/data
-
+#

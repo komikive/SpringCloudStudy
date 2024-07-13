@@ -1,0 +1,84 @@
+version: "1.0"
+name: seata-test
+services:
+  seata:
+    container_name: seata-server
+    image: seataio/seata-server
+    ports:
+      - "8091:8091"
+      - "7091:7091"
+    networks:
+      - seata
+    volumes:
+      - /opt/seata/config:/seata-server/resources
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    volumes:
+      - mysql-seata:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    restart: always
+    networks:
+      - seata
+
+  redis:
+    container_name: redis
+    image: redis:7.0.15
+    ports:
+      - "6379:6379"
+    restart: always
+    networks:
+      - seata
+  nacos:
+    container_name: nacos
+    image: nacos/nacos-server
+    environment:
+      - MODE=standalone
+    ports:
+      - "8848:8848"
+      - "9848:9848"
+    networks:
+      - seata
+
+  seata-order:
+    container_name: seata-order
+    image: seata-order
+    ports:
+      - "2001:2001"
+    networks:
+      - seata
+    #管理启动顺序，依赖mysql就先启动mysql
+    depends_on:
+      - mysql
+      - redis
+  seata-storage:
+    container_name: seata-storage
+    image: seata-storage
+    ports:
+      - "2002:2002"
+    networks:
+      - seata
+    depends_on:
+      - mysql
+      - redis
+      - seata-order
+  seata-account:
+    container_name: seata-account
+    image: seata-account
+    ports:
+      - "2003:2003"
+    networks:
+      - seata
+    depends_on:
+      - mysql
+      - redis
+      - seata-order
+
+volumes:
+  mysql-seata:
+networks:
+  seata:
